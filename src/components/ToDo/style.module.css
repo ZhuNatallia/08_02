@@ -1,0 +1,64 @@
+.todo {
+	border-radius: 10px;
+	margin: 15px;
+	padding: 0px;
+	background-color: #f5f5f5;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	position: relative;
+	font-size: 18px;
+}
+.delTask {
+	position: relative;
+}
+.delTask p {
+	padding: 5px 10px;
+	color: whitesmoke;
+	font-size: 18px;
+	font-family: sans-serif;
+	letter-spacing: 0.5px;
+}
+.btn,
+.btnTask {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #ab173c;
+	text-align: center;
+	border: 1px solid black;
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+	transition: opacity 0.35s ease;
+	cursor: pointer;
+}
+.btnTask {
+	background-color: #3fae98;
+	top: 5px;
+	right: -7px;
+}
+
+.todo:hover button,
+.delTask:hover button {
+	opacity: 1;
+}
+.day {
+	margin: 0;
+	padding: 7px;
+	width: 30px;
+	border-radius: 10px 0 0 10px;
+	background-color: #525151;
+	color: #f5f5f5;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* .red {
+	background-color: rgba(121, 21, 59, 0.992);
+}
+.green {
+	background-color: rgb(21, 120, 84);
+} */
